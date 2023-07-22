@@ -10,7 +10,7 @@ const InvoicePDF = dynamic(() => import("../components/pdf"), {
 
 const View = () => {
 
-
+              
     return(
         <div className={style.style}>
             <PDFDownloadLink document={<InvoicePDF/>} fileName='doc.pdf'>
