@@ -1,14 +1,11 @@
 [
   {
-    "relation": [
-      "delegate_permission/common.handle_all_urls"
-    ],
+    "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
       "package_name": "com.obzonbolivia.twa",
-      "sha256_cert_fingerprints": [
-        "01:D9:B8:39:37:92:E4:AE:6E:1F:D2:67:13:BB:72:DB:15:CB:11:5D:A6:2D:DE:7A:B6:1A:68:A4:84:10:50:59"
-      ]
+      "sha256_cert_fingerprints":
+        ["01:D9:B8:39:37:92:E4:AE:6E:1F:D2:67:13:BB:72:DB:15:CB:11:5D:A6:2D:DE:7A:B6:1A:68:A4:84:10:50:59"]
     }
   }
 ]
