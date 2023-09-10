@@ -12,7 +12,7 @@ export function WithAuth(Component) {
         const router = useRouter()
 
         useEffect(() => {
-            onAuth(setUserProfile, setUserData)
+            user === undefined && onAuth(setUserProfile, setUserData)
             if(user === null) router.push('/Login')
         }, [user])
         
