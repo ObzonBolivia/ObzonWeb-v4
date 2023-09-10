@@ -23,7 +23,7 @@ function Login() {
     }
 
     useEffect(() => {
-        onAuth(setUserProfile, setUserData, postsIMG, setUserPostsIMG)
+        user === undefined && onAuth(setUserProfile, setUserData, postsIMG, setUserPostsIMG)
         if (user) router.replace('/')
     }, [user]);
     return (
